@@ -1,0 +1,52 @@
+.navbar
+    {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+    }
+    .body
+    {
+      margin-top: 40px;
+    }
+
+    .fab
+    {
+      position: relative;
+      margin-top:40px;
+    }
+    .navbar, .navbar-toggle
+    {
+      background: #0099cc;
+    }
+
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #404141;
+    }
+
+    .navbar-inverse .navbar-toggle {
+    border-color:white;
+    }
+
+    .navbar-inverse .navbar-nav > li > a
+     {
+       color: white;
+    }
+
+    navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color:#d2d4d5;
+}
+footer
+{
+  background: #232424;
+  padding:15px 15px;
+  color:aliceblue;
+}
+.details
+{
+  text-align: justify;
+}
+  
+.code
+{
+  border: #404141 solid 1px ;
+}
